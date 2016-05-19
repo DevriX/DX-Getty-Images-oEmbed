@@ -1,5 +1,5 @@
 === DX Getty Images oEmbed ===
-Contributors: devrix
+Contributors: DevriX
 Tags: plugin, Getty Images, media, embed, oEmbed, pictures
 Requires at least: 3.1
 Tested up to: 4.5

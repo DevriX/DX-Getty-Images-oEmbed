@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Plugin Name: DX Getty Images oEmbed
  * Plugin URI: http://devrix.com/
