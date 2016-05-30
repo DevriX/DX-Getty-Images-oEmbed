@@ -14,7 +14,7 @@ Just paste a link from Getty Images and it will embed the image in your content
 
 == Screenshots ==
 
-Comming soon
+Coming soon
 
 == Installation ==
 
@@ -25,9 +25,9 @@ Comming soon
 
 1. How does the plugin works?
 * Simply go to Getty Images, choose a picture and paste the URL in your WYSIWYG editor. That's all :) 
+* Keep in mind that not all URLs are working properly. For now.
 
 == Changelog ==
-
 
 = 1.0 - 2016/05/19 =
 * Initial commit
