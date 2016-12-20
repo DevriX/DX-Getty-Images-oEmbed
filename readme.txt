@@ -10,12 +10,15 @@ Just paste a link from Getty Images and it will embed the image in your content.
 
 == Description ==
 
-[youtube https://www.youtube.com/watch?v=6hvJYK09_I8]
+Just paste a link from Getty Images and it will embed the image in your content.
 
 Note: This is an unofficial plugin. Take a look at Getty Images Terms of Use page: http://www.gettyimages.com/company/terms.
 
 Download and activate the PlugIn to your site. Now all you have to do is to just paste a link from Getty Images. It will embed the image in your content automatically.
 The easyest way to add images to your site. No download needed, just coppy the URL of the image you want in your site and paste it wherever you want in your posts and pages.
+
+Take a look the video review
+[youtube https://www.youtube.com/watch?v=6hvJYK09_I8]
 
 == Screenshots ==
 
