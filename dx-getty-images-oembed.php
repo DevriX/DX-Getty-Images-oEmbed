@@ -1,14 +1,15 @@
 <?php
 /**
- * Plugin Name: DX Getty Images oEmbed
+ * Plugin Name: DX oEmbed for Getty Images
  * Plugin URI: http://devrix.com/
- * Description: Just paste a link from Getty Images and it will embed the image in your content
- * Version: 1.0.0
+ * Description: Just paste a link from Getty Images and it will embed the image in your content. Note: This is an unofficial plugin - http://www.gettyimages.com/company/terms.
+ * Version: 1.0.1
  * Author: DevriX
  * Author URI: http://devrix.com/
  * Text Domain: dx-getty-images
  * Domain Path: /lang
  */
+
 if ( ! class_exists( 'DX_Getty_Images_oEmbed' ) ) :
 	
 class DX_Getty_Images_oEmbed {
@@ -40,10 +41,13 @@ class DX_Getty_Images_oEmbed {
 				if ( ! empty( $item[1] ) ) {
 					$url = $item[1];
 					$responce = wp_remote_get( "http://embed.gettyimages.com/oembed?url=$url&caller=$caller" );
-					if ( ! empty( $responce ) && ! is_wp_error( $responce ) ) {
+					$check_embed = $responce['response']['code'];
+					if ( ! empty( $responce ) && $check_embed != 404 && ! is_wp_error( $responce ) ) {
 						$data = json_decode( $responce['body'] );
 						$the_content = str_replace( $url, $data->html, $the_content );
 						$qwe = $data;
+					} else {
+						$the_content = str_replace( $url, "", $the_content );
 					}
 				}
 			}
