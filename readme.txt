@@ -32,12 +32,12 @@ Take a look the video review
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
-1. Is this the official Getty Images plugin?
-* No, it isn't. This is a wrapper that's allow yuo to copy an URL from Getty Images and load it in your site as a media embed.
+= 1) Is this the official Getty Images plugin? =
+No, it isn't. This is a wrapper that's allow yuo to copy an URL from Getty Images and load it in your site as a media embed.
 
-2. How does the plugin works?
-* Simply go to Getty Images, choose a picture and paste the URL in your WYSIWYG editor. That's all :) 
-* Make sure the URL is valid - link to a single image, not a whole gallery, for example.
+= 2) How does the plugin works? =
+Simply go to Getty Images, choose a picture and paste the URL in your WYSIWYG editor. That's all :) 
+Note: Make sure the URL is valid - link to a single image, not a whole gallery, for example.
 
 == Changelog ==
 
